@@ -4,6 +4,7 @@ Modern Roblox UI library (Luau) — open source.
 
 **Version:** 1.0.0  
 **Platform:** Roblox Executor / Script Hub (requires executor APIs for config, music, tags)
+**need update join discord** https://discord.gg/CuCvsRHEb
 
 ---
 
