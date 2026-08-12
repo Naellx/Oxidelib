@@ -30,11 +30,7 @@ Modern Roblox UI library (Luau) — open source.
 
 ```lua
 -- Load from local file (executor)
-local Library = loadstring(readfile("Oxidelib/Oxidelib.lua"))()
-
--- Or load from URL (if you host it yourself)
--- local Library = loadstring(game:HttpGet("https://your-host.com/Oxidelib.lua"))()
-```
+local Library = loadstring(game:HttpGet("https://getolympushub.xyz/olympus/library/Oxidelib.lua"))()
 
 ### 2. Create a window
 
@@ -220,7 +216,7 @@ print(Library:GetIcon("home")) -- rbxassetid://...
 ## Full Example Script
 
 ```lua
-local Library = loadstring(readfile("Oxidelib/Oxidelib.lua"))()
+local Library = loadstring(game:HttpGet("https://getolympushub.xyz/olympus/library/Oxidelib.lua"))()
 
 local Window = Library:CreateWindow({
     Name = "Example Hub",
